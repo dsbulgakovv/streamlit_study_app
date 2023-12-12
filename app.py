@@ -56,10 +56,6 @@ def render_page(data, main_pic, corr_plot, age_dep_hue, cred_fp_scat, pair_plot,
         st.image(age_dep_hue)
         st.divider()
 
-        st.write('**Рассеяние для признаков, имеющих наибольшую связь с таргетом**')
-        st.image(age_dep_hue)
-        st.divider()
-
         st.write('**Распределение сумм кредитных средств**')
         st.image(cred_distr)
         st.divider()
